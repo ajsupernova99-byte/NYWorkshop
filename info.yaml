@@ -1,10 +1,10 @@
 # Tiny Tapeout project information (Wokwi project)
 project:
-  wokwi_id:     0       # Set this to the ID of your Wokwi project (the number from the project's URL)
-  title:        ""      # Project title
-  author:       ""      # Your name
+  wokwi_id:     481229009608675329       # Set this to the ID of your Wokwi project (the number from the project's URL)
+  title:        "Andgate"      # Project title
+  author:       "anthony"      # Your name
   discord:      ""      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
-  description:  ""      # One line description of what your project does
+  description:  "and gate my design demo"      # One line description of what your project does
   language:     "Wokwi" # other examples include SystemVerilog, Amaranth, VHDL, etc
   clock_hz:     0       # Clock frequency in Hz (or 0 if not applicable)
 
@@ -17,8 +17,8 @@ project:
 pinout:
   # Inputs
   ui[0]: ""
-  ui[1]: ""
-  ui[2]: ""
+  ui[1]: "Alpha"
+  ui[2]: "Beta"
   ui[3]: ""
   ui[4]: ""
   ui[5]: ""
@@ -26,7 +26,7 @@ pinout:
   ui[7]: ""
 
   # Outputs
-  uo[0]: ""
+  uo[0]: "Delta"
   uo[1]: ""
   uo[2]: ""
   uo[3]: ""
